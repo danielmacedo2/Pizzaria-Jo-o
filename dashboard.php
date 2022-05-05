@@ -1,8 +1,7 @@
 <?php
     include_once('templates/header.php');
 ?>
-<h1>Testando CSS</h1>
-    <i class='fas fa-sync-alt'></i>
+    <h1>Dashboard</h1>
 <?php
     include_once('templates/footer.php');
 ?>
