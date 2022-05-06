@@ -16,3 +16,15 @@ html, body {
 .navbar.navbar-expand-lg a {
   color: #FFF;
 }
+
+/* FOOTER */
+footer {
+  background-color: #000;
+  color: #FFF;
+  position: relative;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
