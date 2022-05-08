@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Monte a pizza como desejar:</h2>
+                    <h2>Monte a pizza conforme o seu desejo:</h2>
                     <form action="process/pizza.php" method="POST" id='pizza-form'>
                         <div class="form-group">
                             <label for="borda">Borda:</label>
@@ -23,7 +23,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="sabores">Sabores: (no máximo 3)</label>
+                            <label for="sabores">Sabores (no máximo 3)</label>
                             <select multiple name="sabores" id="sabores" class="form-control">
                                 <option value="">Selecione os sabores</option>
                             </select>
