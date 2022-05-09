@@ -1,6 +1,6 @@
 <?php
-    include_once('templates/header.php');
-    include_once('process/pizza.php');
+    include_once("templates/header.php");
+    include_once("process/pizza.php");
 ?>
     <div id="main-banner">
         <h1>Faça seu pedido</h1>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="form-group">
                             <label for="sabores">Sabores (no máximo 3)</label>
-                            <select multiple name="sabores" id="sabores" class="form-control">
+                            <select multiple name="sabores[]" id="sabores" class="form-control">
                                 <option value="">Selecione os sabores</option>
                                 <?php foreach($sabores as $sabor) : ?>
                                     <option value="<?= $sabor['id'] ?>"><?= $sabor["nome"] ?></option>
