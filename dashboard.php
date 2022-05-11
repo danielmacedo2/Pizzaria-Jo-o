@@ -1,7 +1,7 @@
 <?php
     include_once('templates/header.php');
 ?>
-    <div class="main-container">
+    <div id="main-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -11,7 +11,7 @@
                     <table class="table">
                         <thead>
                             <tr> <!-- Table Row -->
-                                <th scope="col"><span>Pedido</span></th> <!-- Table Head -->
+                                <th scope="col"><span>Pedido</span>#</th> <!-- Table Head -->
                                 <th scope="col">Borda</th>
                                 <th scope="col">Massa</th>
                                 <th scope="col">Sabores</th>

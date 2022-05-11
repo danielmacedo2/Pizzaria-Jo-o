@@ -1,4 +1,4 @@
-<footer>
+    <footer>
         <p>Pizzaria do João &copy; 2022</p>
     </footer>
     <!-- JavaScript Bootstrap -->
